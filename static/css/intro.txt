@@ -1,0 +1,2 @@
+fa-video.css 视频播放器
+input里面是靠头的几个input框动画的属性

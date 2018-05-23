@@ -1,0 +1,418 @@
+/* CSS Document */
+
+
+/*bg*/
+.bg{ background:#FFF}
+.pg_logging,.pg_register,.pg_kym_touch,.pg_showmessage{ background: -moz-linear-gradient( top,#709a90,#58697A); background: -webkit-linear-gradient( top,#709a90,#58697A);background: linear-gradient( top,#709a90,#58697A);}
+
+
+.pg_ucenter{ background:#5B707D;}
+.pipe{ padding:0 5px; color:#ccc}
+
+#wp{ padding-bottom:70px; height:100%; }
+.kym_pt68{ padding-top:60px;}
+.kym_pt78{ padding-top:70px;}
+.kym_pt60{ padding-top:50px;}
+/*header*/
+.header{ position:fixed; top:0px; width:100%; z-index:999}
+.hdc { padding:10px; margin-bottom:0; height:30px; overflow:hidden;
+  background:#2a3444;
+}
+.hdc h2 { float: left; padding: 0 20px 0 0; }
+.hdc h2 img{ height:30px;}
+.hdc h1{ height:30px; line-height:30px; font-size:20px; font-weight:400;color:#fff; overflow:hidden}
+.hdc h1 img{ height:30px; vertical-align:middle}
+.hdc h1 a{ color:#fff;}
+
+.kym_header_ico{ float:right; height:30px; overflow:hidden;}
+.kym_header_ico a{ display:block; float:left}
+.kym_header_ico img{ margin-left:10px; width:30px; height:30px;}
+
+.kym_back{ float:left; margin-right:10px;}
+.kym_back img{ width:30px; height:30px;}
+
+/*bm*/
+.bm_h .o { float: right; width: 20px; margin-top:15px; margin-right:10px; }
+
+.bm_h { height: 50px; background:#f6f6f6; line-height: 50px;border-bottom:1px solid #ddd; border-radius: 5px 5px 0 0; }
+.bm_h h2 { height: 50px; background:#f6f6f6; }
+.bm_h:hover { background:#eee; }
+.bm_h h2 a { line-height:50px; }
+
+/*sub_forum*/
+.kym_sub_forum { border-radius: 0 0 5px 5px; background:#fff}
+.kym_sub_forum li { height:40px; line-height:40px; border-bottom:1px solid #EDEDED; overflow:hidden; padding:10px 0; }
+.kym_sub_forum li:last-child { border-bottom:none;}
+.kym_sub_forum li img{ float:left; margin-right:10px; height:40px;}
+.kym_sub_forum li h3 { font-size:16px; font-weight:400}
+.kym_sub_forum li h3 span{ float:right; font-size:12px; color:#fff; background:#58697A; padding:3px 5px;border-radius: 10px; height:15px; line-height:15px; float-weight:100; }
+
+/*threadlist*/
+.kym_threadlist{}
+.kym_threadlist li{ border-bottom:1px solid #ddd; padding:10px; background:#fff}
+.kym_threadlist li.d{ background:#eee}
+.kym_threadlist li img.kym_cover{ float:left; margin-right:10px; border-radius:1px; width:50px; height:50px;}
+.kym_threadlist li img.kym_go_r{ float:right; margin:16px 0 0 0;}
+.kym_threadlist li img.kym_threadico{ vertical-align:middle; margin-right:5px;}
+.kym_threadlist li h3{ font-size:18px; height:30px; line-height:30px; font-weight:100; overflow:hidden; padding-right:10px;}
+.kym_threadlist li h3 a{ color:#333}
+.kym_threadlist li p{ color:#ccc; height:20px; overflow:hidden; line-height:20px; font-size:14px}
+
+/*l&r*/
+.kym_lrarea{ padding:20px 30px 80px 30px;}
+.kym_logo { padding:0 0 20px 0;}
+.kym_logo img{ height:38px;}
+
+.kym_loginbox{ background:#fff; padding:20px;border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #50ffffff, endColorstr = #50ffffff);
+}
+.kym_lrarea .kym_loginbox{ top:50px;
+  background: rgba(255, 255, 255, 0.8); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #80ffffff, endColorstr = #80ffffff);	
+}
+
+.kym_log_tit{ height:24px; line-height:14px; text-align:center; font-size:18px;}
+.kym_log_tit span{ float:right; display:block; width:30px; height:30px; font-size:18px; text-align:center;}
+
+.kym_inp{ background:#fff; height:30px; line-height:20px; overflow:hidden; padding:5px 0;width:100%; text-indent:10px; margin-bottom:10px;border-radius: 10px; border:1px solid #CCC;}
+.kym_inp input{ border:0px; height:20px; line-height:20px; font-size:16px;width:90%; padding:5px 0;  }
+.kym_sebtn{ line-height:30px; color:#999; font-size:16px; height:40px;}
+.kym_sebtn img{ float:right; margin:5px 10px 0 0}
+
+
+.kym_lbtn button{ height:40px; width:100%; text-align:center; border:0px;border-radius: 10px; color:#fff; font-size:18px;
+  background: -moz-linear-gradient( top,#2A323B,#2A3444); background: -webkit-linear-gradient( top,#2A323B,#2A3444);background: linear-gradient( top,#2A323B,#2A3444);
+}
+.kym_qqbtn{ height:40px; margin-top:10px; width:100%; line-height:40px; text-align:center; border:0px;border-radius: 10px; color:#fff; font-size:18px;
+  background: -moz-linear-gradient( top,#009999,#006666); background: -webkit-linear-gradient( top,#009999,#006666);background: linear-gradient( top,#009999,#006666);
+}
+.kym_qqbtn a{ display:block; color:#fff;}
+.kym_reg_link{ line-height:20px; padding-top:10px; font-size:16px; color:#333; text-align:center}
+.kym_reg_link a{ display:block}
+
+/*nv*/
+.kym_nav{ background:#2A3444; height:60px; position:fixed; width:100%; bottom:0px; color:#fff;}
+.kym_nav li{ float:left; width:50%; text-align:center; height:60px; overflow:hidden}
+.kym_nav li a{ display:block; height:60px;}
+.kym_nav li img{ width:60px; height:60px;}
+.kym_nav li.on{ background:#A43232}
+
+/*search*/
+.search{ padding:15px 20px; }
+.kym_search{ background:#fff; padding:5px; border:1px solid #ccc; border-radius: 5px;}
+.kym_sinp{ width:100%; padding:5px 0; border:0px; font-size:16px}
+.kym_sbar_btn{ width:60px;}
+.kym_sbtn{ background:#58697a; height:40px; width:50px; border:0px; text-align:center; color:#fff;border-radius: 5px;}
+
+.kym_search_info{ border-bottom:1px solid #ddd; padding:10px 20px; line-height:30px; font-size:16px; background:#fff; border-top:1px solid #ddd;}
+
+/**/
+.kym_viewthread_top{ background:#fff; padding:10px;border-radius: 10px 10px 0 0; border-bottom:1px solid #ddd;}
+.kym_viewthread_top img{ float:left; margin-right:10px; vertical-align:middle; width:60px;}
+.kym_viewthread_top h3{ font-weight:normal; font-size:16px; line-height:24px; padding:5px 0;}
+.kym_viewthread_top p{ color:#ccc;}
+.kym_viewthread_top p a{ color:#ccc}
+
+.kym_viewpost_area{ background:#fff;margin-bottom:10px;}
+.kym_viewpost_area_post{ margin-bottom:0px;}
+.kym_viewpost_area_post div.postinfo{ height:40px; background:#e9eaec; line-height:40px; padding-left:10px;font-size:16px}
+.kym_viewpost_area_post div.postinfo span{ color:#f60}
+
+.kym_viewpost{ padding:10px; border-top:1px solid #eee;}
+.kym_viewpost_first{ border-top:0px;}
+
+.kym_message{ font-size:14px; line-height:1.8; color:#666}
+.kym_viewpost_first .kym_message{ font-size:16px}
+
+.kym_img_one{ text-align:center}
+.kym_img_one img { width:60%;}
+.kym_img_list { margin:0 auto;}	
+.kym_img_list img { width:31%; margin:0 2px 5px 3px; text-align:center;vertical-align: middle; line-height:120px; float:left; }
+
+.kym_postuser{}
+.kym_postuser .z{ color:#ccc}
+.kym_postuser .z a{ color:#ccc;}
+.kym_postuser .y{ font-size:14px;}
+
+.kym_viewpost_ct2{}
+.kym_viewpost_ct2{ padding-left:64px;}
+.kym_viewpost_ct2 .kym_postav { margin-left: -64px; float:left; width:44px; padding-left:10px;}
+.kym_viewpost_ct2 .kym_postav img{ width:40px; border:1px solid #ddd; padding:1px;}
+.kym_viewpost_ct2 .kym_postcontent{ float:right; width:100%;}
+
+/**/
+.kym_pastpost{ background:#e9eaec; padding:10px;}
+.kym_pastpost table{ width:100%;}
+.kym_photo{ width:50px; text-align:center; background:#fff;}
+.kym_postbtn{ width:60px; text-align:left; background:#58697a;border-radius:0 5px 5px 0;}
+.kym_postbtn input{ width:60px; height:40px; background:none; border:0px; text-align:center; color:#fff; cursor:pointer; font-size:18px}
+.kym_postinp input{ width:100%; border:0px; padding:5px 0; color:#ccc;}
+.kym_postinp{ background:#fff; padding-left:10px;border-radius:5px 0 0 5px;}
+
+
+
+/*plogo*/
+.kym_plogo{ padding:20px 40px 0 30px;}
+
+/*pmbox*/
+.kym_pmbox{}
+.kym_pmbox li{ border-bottom:1px solid #ddd; background:#fff; padding:10px 10px 10px 70px;}
+.kym_pmbox li img{ float:left; width:50px; margin-left:-60px;border-radius:10px;}
+.kym_pmbox li h3{ font-size:16px; font-weight:400; line-height:30px;}
+.kym_pmbox li h3 em{ font-size:12px; color:#ccc}
+.kym_pmbox li p{ line-height:20px; font-size:14px; color:#666}
+.kym_pmbox li.d{ background:#fff}
+
+
+
+/*msgbox*/
+.kym_msgbox{ padding:10px;}
+.kym_pmbody{ font-size:14px; line-height:20px;}
+.kym_pmdate{ color:#ccc; height:30px; line-height:30px;}
+
+.kym_no_corresponding_pm{ border:1px solid #ddd; background:#fff; line-height:50px;border-radius:10px; text-align:center; font-size:16px}
+.kym_self_msg{ padding-left:66px;}
+.kym_self_msg .kym_pmmsg_av{ float:left; margin-left:-66px; width:40px;border-radius:10px;}
+
+.kym_friend_msg{ padding-right:66px;}
+.kym_friend_msg .kym_pmmsg_av{ float:right; margin-right:-66px; width:40px;border-radius:10px;}
+.kym_friend_msg .kym_pmmsg_msg{ float:right;}
+
+.kym_pmarea{ position: relative;min-width: 100px; display: inline-block;word-break: break-all;word-wrap: break-word; border-radius: 15px; padding:15px 10px;}
+.kym_pmarea:before{ content: ''; display: block; font-size: 0; width: 0; height: 0; border-width: 8px; position: absolute; top: 15px;border-style: solid; }
+
+
+.kym_self_msg .kym_pmarea{ background:#fff;}
+.kym_self_msg .kym_pmarea:before{ border-color: transparent #fff #fff transparent; left: -15px;}
+
+.kym_friend_msg .kym_pmarea{ background:#ffcc66; color:#fff;}
+.kym_friend_msg .kym_pmarea:before{ border-color: transparent transparent #ffcc66 #ffcc66 ; right:-16px;}
+
+.kym_sendpm{ background:#e2e2e2; padding:10px;border-radius:10px; margin:10px;}
+.kym_sendpm table{ width:100%;}
+
+/*slider*/
+.kym_slider{}
+
+.flexslider { margin: 0; padding: 0; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides img { width: 100%; display: block; }
+html[xmlns] .slides { display: block; }
+
+.flexslider { zoom: 1; position: relative; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
+.flexslider .slides { zoom: 1; }
+
+.flex-control-nav { width: 100%; position: absolute; bottom: 45px; text-align: center; }
+.flex-control-nav li { margin: 0 6px; display: inline-block; zoom: 1; *display: inline; }
+.flex-control-paging li a { width: 11px; height: 11px; display: block; background: #fff; text-indent: -9999px; border-radius: 20px; box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a.flex-active { background: #f60; background: rgba(255,102,0,0.9); cursor: default; }
+
+.slides li{ position:relative;}
+.guide-title { position:absolute; bottom:5px; width:100%; left:0; line-height:40px; height:40px; overflow:hidden; background:#000; opacity:0.5;color:#fff; font-size:14px; text-align:center }
+
+
+/**/
+.kym_picslist{ padding:10px;}
+.kym_picslist li{ padding:10px; background:#fff; margin-bottom:10px;border-radius: 10px;
+	border:1px solid #ddd;
+	-moz-box-shadow:0 2px 0 0px #ddd;
+	-webkit-box-shadow:0 2px 0 0px #ddd; 
+	box-shadow:0 2px 0 0px #ddd;
+}
+.kym_picslist li img{ width:100%;}
+.kym_picslist li p{ height:35px; line-height:40px; font-size:14px; overflow:hidden;}
+
+/*favforums*/
+.kym_favforums{ background:#fff; padding:10px;border-radius: 10px; margin:10px;}
+.kym_favforums li{ border-bottom:1px solid #eee; padding:10px;}
+.kym_favforums li img{ float:left; margin-right:10px; width:60px;}
+.kym_favforums li h3{ font-size:18px; line-height:30px; height:30px; overflow:hidden; font-weight:400;}
+.kym_favforums li h3 span{ font-size:12px; color:#fff; background:#f90; padding:3px 5px;border-radius: 10px; height:15px; line-height:15px; margin-left:5px; }
+.kym_favforums li p{ font-size:12px; line-height:15px; color:#999; height:30px; overflow:hidden}
+
+/**/
+.kym_showmsg { padding:30px;}
+.kym_showmsg h2 img{ height:38px;}
+
+.kym_showmsg_area{ padding:20px;border-radius: 10px; margin-top:20px;
+  background: rgba(255, 255, 255, 0.8); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #80ffffff, endColorstr = #80ffffff);
+}
+.kym_showmsg_area div{ font-size:16px; color:#333; line-height:40px; padding-bottom:20px;}
+
+.kym_btn_showmsg{ display:block; height:50px; line-height:50px; text-align:center; background:#2A3444; color:#fff !important; font-size:16px;border-radius: 10px;}
+
+.kym_btn_continue{ display:block; width:45%; float:left; height:50px; line-height:50px; text-align:center; background:#2A3444; color:#fff !important; font-size:16px;border-radius: 10px;}
+.kym_btn_back{ display:block; width:45%; float:right; height:50px; line-height:50px; text-align:center; background:#666; color:#fff !important; font-size:16px;border-radius: 10px;}
+
+/*category*/
+.kym_category{ position:relative}
+.kym_subname_list{ position:absolute; padding:0 15px 15px 10px; background:#fe9d54; left:48px;border-radius: 0 0 10px 10px;}
+.kym_subname_list li{ height:40px; line-height:40px; font-size:16px; border-bottom:1px solid #fcb782;}
+.kym_subname_list li a{ color:#fff}
+
+/*thread_types*/
+.kym_thread_types{ border-bottom:1px solid #ddd; position:fixed; width:100%; overflow-y:hidden; height:44px; top:50px; z-index:999;
+ background: -moz-linear-gradient( top,#fff,#eee); background: -webkit-linear-gradient( top,#fff,#eee);background: linear-gradient( top,#fff,#eee);
+	-moz-box-shadow:0 1px 2px 0px #333 ; 
+	-webkit-box-shadow:0 1px 2px 0px #333 ; 
+	box-shadow:0 1px 2px 0px #333 ;
+}
+.kym_thread_types ul{ padding:0 10px; height:30px;}
+.kym_thread_types li{ float:left; padding:14px 0 0 0; line-height:16px; font-size:16px;}
+.kym_thread_types li a{ display:block; padding:0 10px; border-right:1px solid #ddd;}
+.kym_thread_types li.a a{ background:#f90; color:#fff;border-radius: 10px; border:0px;}
+
+
+/**/
+.kym_post_from{ background:#fff; padding:10px;border-radius: 10px;}
+
+
+.kym_post_from li{ background:#f6f6f6;border-radius: 10px; padding:8px 10px; margin-bottom:10px; font-size:16px }
+.kym_post_from li.kym_post_photobtn{ background:#fff; padding:0px; margin:0px;}
+.kym_post_from .px { width:100%; background:none; padding:5px 0; font-size:16px; }
+.kym_post_from textarea{ border:0; width:100%; background:none; padding:5px 0; font-size:16px;}
+.kym_post_from .sort_sel { background:none; width:100%; border: 0;font-size:16px; color:graytext; margin-left:-2px; }
+
+.kym_postpn{ width:50px; height:28px; overflow:hidden; border:0px; line-height:28px;border-radius: 10px;
+	-moz-box-shadow:0 1px 2px 0px #333 ; 
+	-webkit-box-shadow:0 1px 2px 0px #333 ; 
+	box-shadow:0 1px 2px 0px #333 ;
+}
+.kym_postpn_grey{ background: -moz-linear-gradient( top,#fff,#eee); background: -webkit-linear-gradient( top,#fff,#eee);background: linear-gradient( top,#fff,#eee);}
+.kym_postpn_blue{ color:#fff; background: -moz-linear-gradient( top,#3399ff,#0066cc); background: -webkit-linear-gradient( top,#3399ff,#0066cc);background: linear-gradient( top,#3399ff,#0066cc);}
+
+
+/*news_list*/
+.kym_news_list{}
+.kym_news_list li{ border-bottom:1px solid #ddd; padding:2px 10px 8px 10px; background:#fff}
+.kym_news_list li.d{ background:#f6f6f6}
+.kym_news_list li h3{ font-size:16px; height:40px; line-height:40px; overflow:hidden; font-weight:400; color:#000}
+.kym_news_list li div img{ float:left; margin-right:10px; width:80px;}
+.kym_news_list li div{ font-size:12px; color:#999; height:60px; overflow:hidden}
+
+/*viewnews_title*/
+.kym_viewnews_title{ border-bottom:1px solid #ccc; background:#fff; padding:10px;}
+.kym_viewnews_title h1{ font-size:16px; font-weight:100; color:#000;ont-family:"Microsoft Yahei";}
+.kym_viewnews_title p{ font-size:12px; color:#666; padding-bottom:8px;}
+.kym_viewnews_title p em{ color:#f60;}
+
+.kym_viewnews_summary{ border-bottom:1px solid #ccc; padding:10px; color:#666; margin-bottom:10px;}
+
+.kym_viewnews_content{ background:#fff; padding:10px;border-radius: 10px; font-size:14px; margin-bottom:10px;}
+
+.kym_viewnews_content img{ max-width:100%;}
+
+
+/**/
+.kym_bm{ margin-bottom:10px;}
+.kym_bm h3{ height:40px; line-height:40px; font-size:16px; font-weight:100; padding:0 10px; background:#E9EAEC; }
+.kym_bm h3 a{ float:right; font-size:12px; color:#369; font-weight:400}
+.kym_bm_c{ background:#fff; padding:10px; }
+
+/**/
+.coeming_sublist{ line-height:30px;}
+.coeming_sublist li{ height:30px; overflow:hidden; font-size:14px;}
+
+
+/**/
+.kym_fast_post{ background:#E9EAEC; padding:10px;}
+.kym_fast_post_area{ padding:10px; background:#fff;border-radius:10px;}
+.kym_fast_post_area table{ width:100%;}
+.kym_fast_post_area input{ border:0px; width:100%; height:40px; padding:0px;}
+.kym_fast_post_area button{ width:50px; font-weight:100; height:40px; border:0px; background:#58697A;border-radius:10px; color:#fff; font-size:16px}
+
+/*kym_box*/
+.kym_box{ padding:15px; text-align:center; font-size:16px; background:#fff; margin:30px;border-radius:10px;}
+
+.kym_nbox{ margin-top:10px; }
+.kym_nbox h3{ font-size:14px; font-weight:400; height:40px; padding:0 10px; line-height:40px; background:#f6f6f6}
+.kym_nbox p{ color:#ccc; border-bottom:1px solid #eee; height:40px; line-height:40px; font-size:12px; }
+.kym_nbox p a{ padding-right:5px; font-size:14px;}
+
+/*kym_viewsort*/
+.kym_viewsort{ }
+.kym_viewsort h4{ height:40px; line-height:40px; border-bottom:1px solid #eee; background:#eee; padding-left:10px;}
+.kym_viewsort p{ padding:5px; border-bottom:1px solid #eee;}
+
+
+/**/
+.kym_activityjoin{ background:#f6f6f6;border-radius:10px;}
+.kym_activityjoin h3{ height:40px; line-height:40px; border-bottom:1px solid #eee; padding:0 10px; font-weight:400}
+.kym_activityjoin div{ padding:10px;}
+.kym_activityjoin div table{ width:100%;}
+.kym_activityjoin div table td.btn{ width:60px; text-align:right;}
+.kym_activityjoin div table td.btn button{ width:50px; height:40px; border:0px; background:#2A3444;border-radius:10px; color:#fff; font-size:16px}
+.kym_activityjoin div table td.btn button.kym_disabled{ background:#ccc}
+.kym_activityjoin div table td.inp{ background:#fff;border-radius:10px; padding:0 5px;}
+.kym_activityjoin div table td input{ width:100%; border:0px; height:40px; line-height:40px;}
+
+.kym_cinp{ border:0px; background:#fff;border-radius:10px; border:1px solid #ddd; padding:3px 5px;}
+.kym_np{ padding:5px; border-bottom:1px solid #eee}
+.kym_notice{ background:#FFC; border:1px solid #f90; padding:10px;}
+.kym_activityjoin_notice{ padding:10px; margin:10px; background:#FFC; border:1px solid #f90}
+/*---------------------------------------------------------------------------------------------------------------------------wrap*/
+.open,.userpanel{ width:100%; overflow:hidden; background: -moz-linear-gradient( top,#709a90,#face91); background: -webkit-linear-gradient( top,#709a90,#face91);background: linear-gradient( top,#709a90,#face91);}
+.open .header,.open .kym_nav,.open .kym_thread_types{ left:60%;}
+
+.open #side{ display:block;position:fixed; width:60%; left:0px; top:0px; z-index:300;}
+.open #main{ position:relative; left:60%; background:#eee;
+	-moz-box-shadow:2px 0 5px 1px #333 ; 
+	-webkit-box-shadow:2px 0 5px 1px #333 ; 
+	box-shadow:2px 0 5px 1px #333 ;
+}
+.close .header,.close .kym_nav{ left:0;}
+#side,#panel{ display:none}
+
+
+/*panel*/
+.userpanel #panel{ display:block; position:fixed; width:100%; right:0px; bottom:60px; z-index:300; background:#5B707D;}
+.userpanel #main{ position:relative; right:70%; background:#eee;
+	-moz-box-shadow:-2px 0 5px 1px #333 ; 
+	-webkit-box-shadow:-2px 0 5px 1px #333 ; 
+	box-shadow:-2px 0 5px 1px #333 ;
+}
+
+
+.pg_ucenter #main{ background:#5B707D}
+/*side*/
+#side ul{ line-height:40px; padding:15px;}
+#side ul li{ height:40px; padding-bottom:10px; }
+#side ul li a{ display:block; padding-left:15px; color:#fff; font-size:16px;border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #20000000, endColorstr = #20000000);
+}
+#side ul li a img{ vertical-align:middle; height:40px; margin-right:5px;}
+
+/*panel*/
+#panel{ color:#fff;}
+.kym_panel{ padding:20px 20px;}
+.kym_panel div{ padding:10px;border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #50ffffff, endColorstr = #50ffffff);                                                       
+}
+
+.kym_panel div.kym_userinfo{
+  background: rgba(255, 255, 255, 0.8); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #80ffffff, endColorstr = #80ffffff);    
+}
+
+
+.kym_panel div img{ float:left; margin-right:10px;border-radius: 30px; height:50px;}
+.kym_panel div h3{ font-size:16px; font-weight:400; color:#fff; line-height:50px;}
+.kym_panel div h3 a{ color:#fff}
+
+.kym_panel ul{ padding:10px 0;}
+.kym_panel li{ float:left; width:33%; text-align:center; color:#fff;}
+.kym_panel li p{ height:25px; line-height:25px; font-size:16px}
+.kym_panel li img{ width:40px;}
+
+
+.kym_pinfo{ color:#333; height:30px; line-height:30px !important; border-bottom:1px solid #ddd;}
+.kym_pinfo span{ color:#f60; padding-right:5px;}
+.kym_nb{ border-bottom:0px;}
+.kym_pbtn a{ height:40px; width:100%; display:block; line-height:40px;  text-align:center; border:0px;border-radius: 10px; color:#fff; font-size:18px;
+  background: -moz-linear-gradient( top,#5B707D,#2A3444); background: -webkit-linear-gradient( top,#5B707D,#2A3444);background: linear-gradient( top,#5B707D,#2A3444);
+}

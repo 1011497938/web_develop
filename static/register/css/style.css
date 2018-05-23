@@ -1,0 +1,32 @@
+body{
+	
+}
+
+#d1{
+	margin-right: 0px;
+	padding: 0px;
+}
+#d2{
+	background-color: #212121;
+	margin-left: 0px;
+	height: 100%;
+}
+#d3{
+	padding-top: 150px;
+overflow-y:scroll;	
+height: 100%;
+}
+#d4{
+	margin-top: 40px;
+}
+
+
+.xuanze{
+	font-size: 16px;
+}
+label{
+	color:#fff;
+	font-size: 15px;
+    font-weight: normal;
+	
+}

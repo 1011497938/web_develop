@@ -1,0 +1,11 @@
+ section.qiuna-background{
+	background: #202020 url('../img/background/section-bg2.jpg') 50% 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+section.news-background{
+	background: #202020 url('../img/background/section-bg1.jpg') 50% 0;
+	padding-top: 100px;
+	padding-bottom: 50px;	
+}

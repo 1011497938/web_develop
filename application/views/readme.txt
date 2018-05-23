@@ -1,0 +1,3 @@
+由parttime控制器控制：
+	parttime_message为显示兼职信息的页面
+	parttime_apply为提交报名

